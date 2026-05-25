@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f3f4f6;
+}
+
+/* LOGIN */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* DASHBOARD */
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #111827;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar p {
+  padding: 10px;
+}
+
+.logout {
+  margin-top: 20px;
+  background: red;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* TASKS */
+.task-form {
+  display: flex;
+  gap: 10px;
+}
+
+.task-form input {
+  padding: 10px;
+  flex: 1;
+}
+
+.task-card {
+  background: white;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
