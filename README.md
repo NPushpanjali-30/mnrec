@@ -3,15 +3,15 @@ A full-stack MERN task management app built
 for ScholarX Technologies internship.
 
 ## Features
--  User Login System JWT Authentication
-- Add, Edit, Delete Tasks
-- Priority levels & Due dates
-- Dashboard with Charts
-- Pie Chart & Bar Chart Visualization
-- Project Management
-- Search & Filter Tasks
-- Dark Mode Support
-- Responsive UI Design
+- 📧 Email Login System
+- ✅ Add, Edit, Delete Tasks
+- 🎯 Priority Levels (High, Medium, Low)
+- 📅 Due Dates & Overdue Tracking
+- 📊 Dashboard with Pie & Bar Charts
+- 📁 Project Progress Tracking
+- 🔍 Search & Filter Tasks by Status
+- 🌙 Dark Mode Support
+- 📱 Responsive UI Design
 
 ## Tech Stack
 - Frontend: React, Vite, CSS, Recharts,JavaScript(ES6+)
@@ -38,3 +38,8 @@ Create a .env file in backend:
 SUPABASE_URL=your_supabase_url
 SUPABASE_KEY=your_supabase_anon_key
 JWT_SECRET=your_jwt_secret
+
+## Note
+ Database is hosted on Supabase free tier and may take
+ 30-60 seconds to wake up on first visit.
+ The live demo uses sample data so it works instantly.
