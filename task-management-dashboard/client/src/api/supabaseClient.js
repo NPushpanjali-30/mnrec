@@ -1,6 +1,7 @@
-import { createClient } from "@supabase/supabase-js";
+// Export null if in demo mode
+const isDemoMode = localStorage.getItem("demoMode") === "true";
 
-const supabaseUrl = "https://vlsmexpqktdtyunzkzgg.supabase.co";
-const supabaseKey = "sb_publishable_RxWNDzr4zfXnBIWrI1tkXg_i0aPph_6";
-
-export const supabase = createClient(supabaseUrl, supabaseKey);
+export const supabase = isDemoMode ? null : createClient(
+  "https://iwkwncpcmdojacsosvaa.supabase.co",
+  "your_anon_key"
+);

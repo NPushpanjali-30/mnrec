@@ -7,7 +7,13 @@ import toast, { Toaster } from "react-hot-toast";
 
 function Dashboard() {
 
-  const [tasks, setTasks] = useState([]);
+  
+
+// NEW
+import { mockTasks } from "../mockData";  // top of file
+
+const isDemoMode = localStorage.getItem("demoMode") === "true";
+const [tasks, setTasks] = useState(isDemoMode ? mockTasks : []);
 
   const [search, setSearch] = useState("");
 
