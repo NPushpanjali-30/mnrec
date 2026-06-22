@@ -17,7 +17,7 @@ const mockTasks = [
 
 function App() {
   const [user, setUser] = useState(null);
-  const [username, setUsername] = useState("Pushpanjali");
+  const [username, setUsername] = useState("Basvashree");
   const [newUsername, setNewUsername] = useState("");
   const [newEmail, setNewEmail] = useState("");
   const [darkMode, setDarkMode] = useState(false);
@@ -35,7 +35,7 @@ function App() {
     const email = document.getElementById("email").value;
     if (!email) { alert("Enter email"); return; }
     if (!email.includes("@")) { alert("Enter a valid email"); return; }
-    setUser({ email, username: "Pushpanjali" });
+    setUser({ email, username: "Basvashree" });
   };
 
   // LOGOUT
